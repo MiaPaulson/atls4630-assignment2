@@ -1,0 +1,44 @@
+/* harry  potter color palette found on: 
+https://www.color-hex.com/color-palette/64222
+
+red: (100,30,30)
+gold: (195,154,28)
+brown: (61,47,34)
+blue: (113,118,121)
+white/gray: (239,238,233)
+*/
+
+/* harry potter image found on: 
+https://commons.wikimedia.org/wiki/File:Harry_Potter_wordmark.svg
+*/
+
+body {
+    background-color: rgb(239,238,233);
+}
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 500px;
+}
+
+#charPicDiv {
+    display: flex;
+    justify-content: right;
+}
+
+#charPic {
+    width: 300px;
+}
+
+#charName {
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+#charHouse {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paulson Assignment 2</title>
+        <link rel = "stylesheet" href="style.css">
+        <script src = "script.js" defer></script>
+    </head>
+    <body>
+        <div id = "logo">
+            <img src="harry-potter.svg" alt="Harry Potter">
+        </div>
+        <!-- found out can do dropdowns with "select" and "option" tags! -->
+        <!-- looked up "dropdown hmtl" and AI overview showed this option -->
+        <!-- want dropdown so that the languages are always the same -->
+        <label for="languageDrop">Language</label>
+        <select id="languageDrop">
+            <!-- value is actual thing submitted - want it to be the shorthand used for API -->
+            <option value="en">English</option>
+            <opiton value="es">Español</opiton>
+            <opiton value="fr">Français</opiton>
+            <opiton value="it">Italiano</opiton>
+            <opiton value="pt">Português</opiton>
+            <opiton value="uk">Українська</opiton>
+
+        </select>
+        <div id="characters">
+            <button id ="charButton">Which Character Are You?</button>
+            <div id="charName"></div>
+            <div id="charHouse"></div>
+            <div id="charPicDiv">
+                <img id ="charPic"></img>
+            </div>
+        </div>
+
+        <div id="spells">
+            <button id="spellButton">Learn new spells!</button>
+            <div id="printSpell"></div>
+            <div id="printSpellUse"></div>
+        </div>
+    </body>
+</html>
