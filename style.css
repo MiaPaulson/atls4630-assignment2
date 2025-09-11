@@ -24,10 +24,10 @@ img {
     width: 500px;
 }
 
-#charPicDiv {
+/* #charPicDiv {
     display: flex;
     justify-content: right;
-}
+} */
 
 #charPic {
     width: 300px;
@@ -41,4 +41,38 @@ img {
 #charHouse {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
+}
+
+#printSpell {
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+#printSpellUse {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+button {
+    background-color: black;
+    color: rgb(239,238,233);
+    border-radius: 40px;
+    padding: 20px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+
+#mainStuff{
+    display: flex;
+    justify-content: space-between;
+}
+
+#languageDrop{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    background-color: black;
+    color: rgb(239,238,233);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
